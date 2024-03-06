@@ -1,50 +1,46 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>無標題文件</title>
-<style>
-	div{
-		text-align: center;
-		
-	}
-	.outer-table {
-             margin: auto;
-	}
-	table {
-    border: 1px solid black;
-    border-radius: 10px;
-    border-spacing: 30px;
-	display: block;
-	margin: auto;
-	}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>無標題文件</title>
+    <style>
+        body {
+            text-align: center;
+        }
 
-  	td,th {
-    border: 1px solid black;
-	padding-left: 10px;
- 	padding-right: 10px;
-	}
-	
+        .outer-table {
+            width: 60%;
+            margin: auto;
+            border: 1px solid black;
+            border-radius: 10px;
+            border-spacing: 30px;
+        }
 
-</style>
+        td, th {
+            border: 1px solid black;
+            padding: 10px; 
+        }
 
+        th {
+            width: 40%;
+        }
+    </style>
 </head>
-
 <body>
-	<div>
-		<table style="width:60%" class="outer-table">
-		<tr>
-   			<th width="40%" rowspan="3">&nbsp;</th>
-    		<th width="60%">Lastname</th> 
- 		</tr>
-        <tr>
-          <td>Smith</td>
-        </tr>
-        <tr>
-          <td>Jackson</td>
-		</tr>
-	</table>
-	</div>
-	
+    <div>
+        <table class="outer-table">
+            <tr>
+                <th rowspan="3">&nbsp;</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Smith</td>
+            </tr>
+            <tr>
+                <td>Jackson</td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
