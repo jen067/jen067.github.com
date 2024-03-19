@@ -2,6 +2,7 @@
 body{
 	background-color: #E1E0E0;
 }
+
 .title_style  {
     margin-left: 20px;
     padding: 5px;
@@ -9,6 +10,14 @@ body{
     background: #CCCCCC;
     text-align: center;
 }
+#Caption img {
+    width: 500px;
+    height: 500px;
+    -webkit-box-shadow: 20px 10px 10px 5px #D23538;
+    box-shadow: 20px 10px 10px 5px #D23538;
+    border-radius: 10px;
+}
+
 .main_style  {
     margin-left: 20px;
 	magin-top:10px;
