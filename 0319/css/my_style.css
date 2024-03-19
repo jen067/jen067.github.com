@@ -14,10 +14,13 @@ body{
     width: 500px;
     height: 500px;
     -webkit-box-shadow: 20px 10px 10px 5px #D23538;
-    box-shadow: 20px 10px 10px 5px #D23538;
+    box-shadow: 20px 10px 10px 5px;
     border-radius: 10px;
 }
-
+#Maincontain img{
+width: 50%;
+height: 50%;
+}
 .main_style  {
     margin-left: 20px;
 	magin-top:10px;
