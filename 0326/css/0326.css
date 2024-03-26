@@ -4,4 +4,14 @@ body {
     margin-left: 20px;
     padding-left: 10px;
     background-color: #E1DEDE;
+    font-family: "標楷體";
+}
+body p {
+    font-style: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+body h1 {
+    font-style: italic;
+    font-size: 30px;
 }
