@@ -1,3 +1,7 @@
 body {
     color: #535A68;
+    border-left: 5px solid #4F5386;
+    margin-left: 20px;
+    padding-left: 10px;
+    background-color: #E1DEDE;
 }
