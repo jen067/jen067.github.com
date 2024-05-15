@@ -3,17 +3,23 @@ body {
     background-color: #F8F8F8;
 }
 .Home{
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -999;
+	 position: relative;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: -999;
 }
 .Home img{
 	min-height: 100%;
-	width: 100%;
- 	max-width: 100%;
-	height: auto;
+    min-width: 1690px;
+   	width: 100%;
+}
+@media screen and (max-width: 1690px) {
+	img.Home {
+		left: 50%;
+        margin-left: -500px;
+    }
 }
 .Page{
 	top: 0;
@@ -30,6 +36,17 @@ body {
  	max-width: 100%;
 	height: auto;
 }
+.pic1 img{
+	min-height: 100%;
+    min-width: 1690px;
+   	width: 100%;
+}
+@media screen and (max-width: 1690px) {
+	img.pic1 {
+		left: 50%;
+        margin-left: -500px;
+    }
+}
 .container {
     position: absolute;
     top: 0;
@@ -38,9 +55,8 @@ body {
     bottom: 0;
 }
 .card{
-	position: absolute;
+	position: relative;
 	top:100px;
-	left: 20px;
 }
 .card-body h5{
 	text-align: center; 
