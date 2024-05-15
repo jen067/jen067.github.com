@@ -41,7 +41,6 @@ body {
 	min-height: 500px;
     min-width: 1440px;
    	width: 100%;
-	background-repeat: repeat-y;
 }
 @media screen and (max-width: 1440px) {
 	img.pic1 {
