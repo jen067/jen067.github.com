@@ -39,7 +39,7 @@ body {
 }
 .card{
 	position: absolute;
-	top:300px;
+	top:100px;
 	left: 20px;
 }
 .card-body h5{
@@ -54,4 +54,5 @@ body {
 	border-color: #9F87A9;
 	border-width: 3px;
 	bordor-radius:8px;
+	margin-left: 50px;
 }
