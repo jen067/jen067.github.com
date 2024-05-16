@@ -1,0 +1,90 @@
+body {
+  display: flex;
+}
+header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  background: var(--grape-0);
+}
+
+.Title {
+  padding: var(--size-10);
+  display: grid;
+  gap: var(--size-5);
+  margin-left: 20px;
+  font-family: "alex-brush";
+}
+
+.Title-message {
+  display: grid;
+  grid-template-columns: max-content;
+  line-height: var(--font-lineheight-0);
+}
+
+.Title1{
+	color:#C391CB;
+	font-size: 80px
+}
+.Title2{
+	margin-left: 150px;
+	margin-right: 20px;
+}
+
+.under-message {
+  color: var(--gray-7);
+  margin-block-end: var(--size-3);
+}
+.under-message p{
+	font-family: "alex-brush";
+	margin-left: 20px;
+}
+.button-list {
+  display: flex;
+  gap: var(--size-3);
+}
+
+button {
+  width:150px;
+  height: 40px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.3);
+}
+
+button.primary {
+  background: var(--indigo-8);
+  color: #5F5976;
+  font-family: "alex-brush";
+  border-color: #9F87A9;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+button.primary:hover {
+  background: var(--indigo-7);
+  background: #6A61AE;
+  color: #FFFFFF;
+  font-family: "alex-brush";
+  border-color: #6A61AE;
+  border-width: 3px;
+  border-radius: 8px;
+}
+button.secondary {
+  background: var(--indigo-8);
+  background: #58658B;
+  color: #FFFFFF;
+  font-family: "alex-brush";
+  border-color: #58658B;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
+button.secondary:hover {
+  background: var(--indigo-7);
+  color: #5F5976;
+  font-family: "alex-brush";
+  border-color: #93A1C8;
+  border-width: 3px;
+  border-radius: 8px;
+  
+}

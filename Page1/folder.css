@@ -1,0 +1,30 @@
+@charset "utf-8";
+body{
+	margin-bottom: 20px;
+	background-image: url("pic/page1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+}
+.card-body h5{
+	text-align: center; 
+	color: #AB8FC5; 
+	font-family: "alex-brush";
+	font-size: 24px;
+}
+.btn-outline-primary {
+    color: #5F5976;
+    font-family: "alex-brush";
+    border-color: #9F87A9;
+    border-width: 3px;
+    border-radius: 8px;
+    margin-left: 50px;
+    z-index: 6; 
+}
+
+.btn-outline-primary:hover {
+    background-color: #5F5976; 
+    color: white; 
+    border-color: #272241;
+	z-index: 6; 
+}
