@@ -4,109 +4,115 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Jen的網頁</title>
-		<link rel="icon" href="export202205281527099220.ico">
-		<style>
-			body{
-				background-color:#f6f6f6;
-			}
-			.heading1{
-				background-color:#9BB7D4;
-				color:#F4F5F7;
-				text-align:center;
-				padding:20px 10px 15px 10px #9BB7D4;
-				border-bottom: 5px #09214C solid;
-				border-top: 5px #9BB7D4 solid;
-				margin: 15px 100px 30px 100px;
-			}
-			.paragraph{
-				margin-left: 100px;
-				margin-right:100px;
-			}
-			.paragraph1{
-				font-size:40px;
-				color:#28527A;
-				margin:0;
-			}
-			.paragraph1 p{
-				margin-top:15px;
-				margin-bottom: 5px;
-			}
-			.paragraph1 hr{
-				margin-top:1px;
-			}
-			.paragraph2{
-				padding:5px 10px;
-				background-color:#EBEBF4;
-				margin:0;
-			}
-			.paragraph2 a{
-				margin:0;
-				font-size:25px;
-				color:#254163;
-			}
-			.paragraph3{
-				margin: 0;
-				text-align: center;
-			}
-			.paragraph3 hr{
-				margin-top:20px;
-			}
-			.paragraph3 p{
-				text-align: left;
-				font-size:25px;
-				color:#254163;
-				margin: 0;
-				
-			}
-			.paragraph3 iframe{
-				display: block;
-				margin: auto;
-			}
-			
-		</style>
+		<title>Loading</title>
 	</head>
+	<style>
+		body{
+			background-image: url("pic/background.png");
+			background-size: cover;
+			background-repeat:repeat-y;
+			background-position: center;
+		}
+		.loading {
+			position: fixed;
+  			top: 0;
+  			left: 0;
+  			width: 100%;
+  			height: 100%;
+  			z-index: 9999;
+		}
+
+		.loading-text {
+  			position: absolute;
+  			top: 0;
+  			bottom: 0;
+  			left: 0;
+  			right: 0;
+  			margin: auto;
+  			text-align: center;
+  			width: 100%;
+  			height: 100px;
+  			line-height: 100px;
+			font-size: 20px;
+		}
+.loading-text span {
+  display: inline-block;
+  margin: 5px;
+  font-family: "alex-brush";
+}
+.loading-text span:nth-child(1) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0s infinite linear alternate;
+          animation: blur-text 1.5s 0s infinite linear alternate;
+}
+.loading-text span:nth-child(2) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.2s infinite linear alternate;
+          animation: blur-text 1.5s 0.2s infinite linear alternate;
+}
+.loading-text span:nth-child(3) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.4s infinite linear alternate;
+          animation: blur-text 1.5s 0.4s infinite linear alternate;
+}
+.loading-text span:nth-child(4) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.6s infinite linear alternate;
+          animation: blur-text 1.5s 0.6s infinite linear alternate;
+}
+.loading-text span:nth-child(5) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 0.8s infinite linear alternate;
+          animation: blur-text 1.5s 0.8s infinite linear alternate;
+}
+.loading-text span:nth-child(6) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1s infinite linear alternate;
+          animation: blur-text 1.5s 1s infinite linear alternate;
+}
+.loading-text span:nth-child(7) {
+  filter: blur(0px);
+  -webkit-animation: blur-text 1.5s 1.2s infinite linear alternate;
+          animation: blur-text 1.5s 1.2s infinite linear alternate;
+}
+
+a {
+    text-decoration:none;
+}
+
+@-webkit-keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
+}
+
+@keyframes blur-text {
+  0% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(4px);
+  }
+}
+	</style>
 	
 	<body>
-		<div class="heading1">
-			<h1>這是Jen的第一個網頁</h1>
-		</div>
-		<div class="paragraph">
-			<div class="paragraph1">
-				<b><p>Introduce</p></b>
-				<hr>
-			</div>
-			<div class="paragraph2">
-				<p><b><a href="0305/id_card_index.html">0305-MyProfile</a></b></p>
-				<p><b><a href="0312/container.html">0312-Container</a></b></p>
-				<p><b><a href="0319/index0319.html">0319-Design</a></b></p>
-				<p><b><a href="0326/0326-1.html">0326-Design</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="0326/0326-2.html">0326-2-Design</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="0326/0326-3.html">0326-3-Design</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="0326/0326-4.html">0326-4-Design</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="0326/0326-5.html">0326-5-Design</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="0326/0326-6.html">0326-6-Design</a></b></p>
-				<p><b><a href="https://sites.google.com/view/zerohun/%E9%A6%96%E9%A0%81">ZERO_HUNGER</a></b></p>
-				<p><b><a href="0416/index.html">0416-Bootstrap</a></b></p>
-				<p><b><a href="0416/index - 複製.html">0416-Bootstrap複製</a></b></p>
-				<p><b><a href="0423/index.html">0423-Bootstrap排版</a></b></p>
-				<p><b><a href="0423/index2.html">0423-隨堂練習</a></b></p>
-				<p><b><a href="0430/0430.html">0430-Bootstrap公用類別與表單</a></b></p>
-				<p><b><a href="0430/bonus.html">0430-隨堂練習</a></b></p>
-				<p><b><a href="0507/index.html">0507-Bootstrap 元件</a></b></p>
-				<p><b><a href="0507/bonus.html">0507-隨堂練習</a></b></p>
-				<p><b><a href="0514/index.html">0514-Bootstrap 元件</a></b></p>
-				<p><b><a href="0514/bonus.html">0514-隨堂練習</a></b></p>
-				<div class="paragraph3">
-					<hr>
-					<p><b>NTUE Address</b></p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.278259251106!2d121.5420624760505!3d25.024629238667554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a908a8232611%3A0xeebfb2d71a5025c7!2z5ZyL56uL6Ie65YyX5pWZ6IKy5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1708998146696!5m2!1szh-TW!2stw" width="560" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					<hr>
-					<p><b>Anime For Lunch</b></p>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/SQpwOZAp72s?si=bKjenhph-CUA3spP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-				</div>
-				<br/>
-			</div>
-			
-			
-		</div>
-		
-		
+		<div class="loading">
+			<div class="loading-text">
+				<a href="test/Home.html">
+					<span class="loading-text-words">T</span>
+            		<span class="loading-text-words">A</span>
+            		<span class="loading-text-words">P</span>
+            		<span class="loading-text-words"> </span>
+            		<span class="loading-text-words">M</span>
+            		<span class="loading-text-words">E</span>
+            		<span class="loading-text-words">!</span>
+				</a>
+       		</div>
+    </div>
 	</body>
 
 </html>
