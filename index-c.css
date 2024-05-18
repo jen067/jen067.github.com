@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	background-image: url("pic/background.png");
+	background-size: cover;
+	background-position: center;
+    display: flex;
+    height: 100vh;
+    font-family: "alex-brush";
+	justify-content: center;
+	align-items: center;
+}
+.wrapper{
+	display: flex;
+}
+.wrapper .static-txt{
+	color:aliceblue;
+	font-size: 32px;
+	font-weight: 400;
+}
+.wrapper .dynamic-txts{
+	margin-left: 20px;
+	line-height: 30px;
+	height: 30px;
+	overflow: hidden;
+}
+.dynamic-txts li{
+	list-style: none;
+	color:#707DAA;
+	font-size: 32px;
+	font-weight: 900;
+	position: relative;
+	animation: slide 8s steps(4) infinite;
+}
+
+@keyframes slide{
+	0%{
+		top: 0;
+	}
+	25%{
+		top:-30px;
+	}
+	50%{
+		top:-60px;
+	}
+	75%{
+		top:-90px;
+	}
+	100%{
+		top:-120px;
+	}
+}
+/*.dynamic-txts li::after{
+	content: "";
+	position: absolute;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color:#707DAA; 
+	border-left: 1px solid #707DAA;
+	animation: typing 2s steps(4, end) infinite, blink 0.2s step-end infinite;
+}
+@keyframes typing {
+	from {
+        left:0; 
+        width: 0;
+    }
+    to {
+        left: calc(100% - 1px);
+        width: 100%;
+    }
+}
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
