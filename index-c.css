@@ -35,7 +35,7 @@ body {
 	font-size: 32px;
 	font-weight: 900;
 	position: relative;
-	animation: slide 8s steps(4) infinite;
+	animation: slide 4s steps(4) infinite;
 }
 
 @keyframes slide{
