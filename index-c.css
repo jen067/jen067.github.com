@@ -55,28 +55,4 @@ body {
 		top:-120px;
 	}
 }
-/*.dynamic-txts li::after{
-	content: "";
-	position: absolute;
-	left: 0;
-	height: 100%;
-	width: 0;
-	background-color:#707DAA; 
-	border-left: 1px solid #707DAA;
-	animation: typing 2s steps(4, end) infinite, blink 0.2s step-end infinite;
-}
-@keyframes typing {
-	from {
-        left:0; 
-        width: 0;
-    }
-    to {
-        left: calc(100% - 1px);
-        width: 100%;
-    }
-}
-@keyframes blink {
-    50% {
-        border-color: transparent;
-    }
-}
+
